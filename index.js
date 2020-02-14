@@ -25,7 +25,6 @@ function currentLine(currline)
       var  line= "The line is currently:"
       for(var i=0 ;i<currline.length;i++)
       {
-      var  line= "The line is currently:"
       line = line + ` ${i}. ${currline[i]}, `
       }
      return line
