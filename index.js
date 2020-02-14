@@ -23,7 +23,7 @@ function currentLine(currline)
     }else
     {
       var  line= "The line is currently:"
-      for(var i=0 ;i<currline.length;i++)
+      for(var i=1 ;i<currline.length;i++)
       {
       line = line + ` ${i}. ${currline[i]}, `
       }
