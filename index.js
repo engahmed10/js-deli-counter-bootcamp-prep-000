@@ -14,3 +14,8 @@ function nowServing(currline)
 
   return (`Currently serving ${currline.shift()}.`)
   }
+  function currentLine(line)
+  {
+    
+    
+  }
