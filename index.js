@@ -27,6 +27,6 @@ function currentLine(currline)
       {
        line = line +` ${i+1}. ${currline[i]}`+','
       }
-     return(line+',')
+     return(line)
     }
   }
