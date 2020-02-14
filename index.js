@@ -5,7 +5,7 @@ function takeANumber(currline, name)
   return (`Welcome, ${name}. You are number ${(currline.length)} in line.`)
   
 }
-function nowServing()
+function nowServing(currline)
 {
-  
+  return currline[0]
 }
