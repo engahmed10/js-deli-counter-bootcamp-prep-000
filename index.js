@@ -7,7 +7,7 @@ function takeANumber(currline, name)
 }
 function nowServing(currline)
 {
-  if(currline === 0)
+  if(currline.length === 0)
   {
     return "There is nobody waiting to be served!"
   }
