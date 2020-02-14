@@ -19,6 +19,6 @@ function currentLine(line)
   {
       if(currline.length === 0)
   {
-    return "There is nobody waiting to be served!"
+    return "The line is currently empty."
   }
   }
