@@ -7,6 +7,10 @@ function takeANumber(currline, name)
 }
 function nowServing(currline)
 {
-  return currline[0]
-  currline.slice(0)
+  if(currline == [])
+  {
+    
+  }
+  return (currline[0])
+  currline.slice(1)
 }
