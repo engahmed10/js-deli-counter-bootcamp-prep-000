@@ -2,6 +2,6 @@
 function takeANumber(currline, name)
 {
   
-  return (`Welcome, ${name}. You are number ${currline[name]} in line.`)
+  return (`Welcome, ${name}. You are number ${currline[name].indexOf()} in line.`)
   
 }
