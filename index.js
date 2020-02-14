@@ -27,6 +27,6 @@ function currentLine(currline)
       {
        line = line +` ${i+1}. ${currline[i]}`+','
       }
-     return(splice(line))
+     return(line.substring(0,line.length - 1))
     }
   }
