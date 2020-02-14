@@ -17,8 +17,13 @@ function nowServing(currline)
   
 function currentLine(line)
   {
-      if(currline.length === 0)
-  {
+    if(currline.length === 0)
+    {
     return "The line is currently empty."
-  }
+    }else
+    {
+      
+    }
+  
+  
   }
