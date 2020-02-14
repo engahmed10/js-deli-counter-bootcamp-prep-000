@@ -22,7 +22,7 @@ function currentLine(currline)
     return "The line is currently empty."
     }else
     {
-      return `The line is currently: 1. Ada, 2. Grace`
+      return `The line is currently: 1. ${currline[i]}, 2. Grace`
     }
   
   
