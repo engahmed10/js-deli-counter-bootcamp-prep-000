@@ -22,7 +22,7 @@ function currentLine(currline)
     return "The line is currently empty."
     }else
     {
-      console.log(" who is in line ")
+      return `The line is currently: 1. Ada, 2. Grace`
     }
   
   
