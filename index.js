@@ -2,7 +2,7 @@ var katzDeliLine = [];
 function takeANumber(currline, name)
 {
   var i=0;
-  return (`Welcome, ${name}. You are number ${currline} in line.`)
+  return (`Welcome, ${name}. You are number ${currline[name]} in line.`)
 
   
 }
