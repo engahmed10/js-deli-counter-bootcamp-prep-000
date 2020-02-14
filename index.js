@@ -9,7 +9,7 @@ function nowServing(currline)
 {
   if(currline == [])
   {
-    return ("There is nobody waiting to be served!")
+    return "There is nobody waiting to be served!"
   }
   return (currline[0])
   currline.slice(1)
