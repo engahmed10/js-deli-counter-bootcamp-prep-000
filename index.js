@@ -22,7 +22,7 @@ function currentLine(line)
     return "The line is currently empty."
     }else
     {
-      console.log("")
+      console.log(" who is in line ")
     }
   
   
