@@ -22,8 +22,10 @@ function currentLine(currline)
     return "The line is currently empty."
     }else
     {
-      return `The line is currently: 1. ${currline[i]}, 2. Grace`
+      for(var i=0 ;i<currline.length;i++)
+      {
+      var  line= "The line is currently:"
+      line =line + ` i. ${currline[i]}, `
+     }
     }
-  
-  
   }
