@@ -1,4 +1,4 @@
-var katzDeliLine = [];
+var currline = [];
 function takeANumber(currline, name)
 {
   var i=0;
