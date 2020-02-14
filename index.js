@@ -1,5 +1,5 @@
 var katzDeliLine = [];
-function takeANumber(katzDeliLine, name)
+function takeANumber(currline, name)
 {
   
   
