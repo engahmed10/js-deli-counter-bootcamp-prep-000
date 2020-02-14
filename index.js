@@ -12,7 +12,7 @@ function nowServing(currline)
     return "There is nobody waiting to be served!"
   }
 
-  return (`Currently serving ${currline[0]}.`)
-  currline.shift()
+  return (`Currently serving ${currline.shift()}.`)
+  
   
 }
