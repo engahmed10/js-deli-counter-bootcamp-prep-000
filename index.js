@@ -14,8 +14,11 @@ function nowServing(currline)
 
   return (`Currently serving ${currline.shift()}.`)
   }
-  function currentLine(line)
+  
+function currentLine(line)
   {
-    
-    
+      if(currline.length === 0)
+  {
+    return "There is nobody waiting to be served!"
+  }
   }
