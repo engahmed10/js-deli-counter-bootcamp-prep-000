@@ -2,6 +2,6 @@
 function takeANumber(currline, name)
 {
   currline.push(name);
-  return (`Welcome, ${name}. You are number ${(currline.length)+1} in line.`)
+  return (`Welcome, ${name}. You are number ${(currline.length)} in line.`)
   
 }
