@@ -22,6 +22,7 @@ function currentLine(currline)
     return "The line is currently empty."
     }else
     {
+      var  line= "The line is currently:"
       for(var i=0 ;i<currline.length;i++)
       {
       var  line= "The line is currently:"
